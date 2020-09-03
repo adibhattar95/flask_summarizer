@@ -10,7 +10,7 @@ RUN mkdir -p /opt/myprojects
 
 COPY document_summarizer /opt/myprojects
 #COPY addarray.py /opt/myprojects
-WORKDIR /opt/myprojects/document_summarizer
+WORKDIR /opt/myprojects
 
 RUN pip3 install -r requirements.txt
 
